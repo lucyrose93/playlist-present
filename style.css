@@ -1,0 +1,50 @@
+
+body, html {
+  margin: 0 auto;
+  background-color: #312E2D;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 3em;
+  margin-bottom: 6em;
+}
+
+iframe {
+  box-shadow: 1em 2em 1em #111010;
+  width: 60%;
+  margin: 4em 0;
+}
+
+.card {
+  background: #FEF9E7;
+  width: 50%;
+  padding: 2% 5%;
+  box-shadow: 1em 2em 1em #111010;
+  border-radius: .2em;
+  font-family: 'Dancing Script', cursive;
+}
+
+.card_message {
+  font-size: 2em;
+}
+
+.card h1 {
+  font-size: 3em;
+}
+
+.signature {
+  font-size: 2.5em;
+}
+
+@media (max-width: 700px) {
+  .card {
+    width: 70%;
+  }
+  iframe {
+    width: 80%;
+  }
+}
